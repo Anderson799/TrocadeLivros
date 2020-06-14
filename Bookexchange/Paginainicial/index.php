@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url(fundo.JPG)">
 
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
@@ -110,6 +110,16 @@ else if (!isset($_SESSION['emailL'])) {
           </div>
         </div>
       </div>
+       <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="glyphicon glyphicon-comment m-auto text-primary"></i>
+            </div>
+            <h3><a href="">Chat</a></h3>
+            <p class="lead mb-0">Compartilhe ideias!</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -120,22 +130,22 @@ else if (!isset($_SESSION['emailL'])) {
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/img4.JPG');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>É fácil trocar!</h2>
-          <p class="lead mb-0">Publique sua lista de Livros disponíveis para troca. E peça o Livro desejado pelo nosso site com seu ponto. Simples assim, veja como:</p>
+          <h2><font color="#ffffff">É fácil trocar!</font></h2>
+          <p class="lead mb-0"><font color="#ffffff">Publique sua lista de Livros disponíveis para troca. E peça o Livro desejado pelo nosso site com seu ponto. Simples assim, veja como:</font></p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2><font color="#ffffff">Updated For Bootstrap 4</font></h2>
+          <p class="lead mb-0"><font color="#ffffff">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</font></p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2><font color="#ffffff">Easy to Use &amp; Customize</font></h2>
+          <p class="lead mb-0"><font color="#ffffff">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</font></p>
         </div>
       </div>
     </div>
@@ -172,12 +182,11 @@ else if (!isset($_SESSION['emailL'])) {
   </section>
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
+  
+        <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4"><center><font color="#ffffff">Ready to get started? Sign up now!</font></center></h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -193,7 +202,6 @@ else if (!isset($_SESSION['emailL'])) {
         </div>
       </div>
     </div>
-  </section>
 
   <!-- Footer -->
   <footer class="footer bg-light">
@@ -202,11 +210,11 @@ else if (!isset($_SESSION['emailL'])) {
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="#">About</a>
+              <a href="#">Quem nós somos</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Contact</a>
+              <a href="#">Nossos contatos</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -222,7 +230,7 @@ else if (!isset($_SESSION['emailL'])) {
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
+              <a href="https://www.youtube.com/">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
@@ -232,7 +240,7 @@ else if (!isset($_SESSION['emailL'])) {
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>

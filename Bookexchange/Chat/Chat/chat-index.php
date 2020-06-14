@@ -34,5 +34,7 @@
 		<input type="button" id="submit" value="Enviar" />
 	</fieldset>
 </form>
+<button><a href="../../Paginainicial">Sair</a></button>
+
 </body>
 </html>
