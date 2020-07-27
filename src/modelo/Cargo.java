@@ -28,9 +28,7 @@ public class Cargo {
         this.nomeCargo = nomeCargo;
     }
 
-    /**
-     * @return the comissao
-     */
+   
     public String getComissao() {
         return comissao;
     }
